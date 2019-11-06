@@ -1,16 +1,15 @@
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author dengchao
- * @date 2019/9/11 23:28
+ * 2019/9/11 23:28
  */
 public class CollectorsDemoTest {
     private List<String> strings;
